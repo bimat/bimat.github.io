@@ -43,6 +43,9 @@ the values below (these values are using during meta-analysis):
 	The random matrix was created without this constraint instead.
 	Consider to modify Options.ALLOW_ISOLATED_NODES and/or Options.INCLUDE_EMPTY_NODES
 	</pre>
+  * <<tt>SWAP_FIXED_FACTOR = 100</tt>: This swap factor $S_f$ is used for creating random networks using the
+	<tt>FIXED</tt> null model. The amount of performed random swaps in the matrix is $S_f E$, were $E$ is the
+	number of edges.
   * <tt>INCLUDE_EMPTY_NODES = true</tt>: Sometimes the user may have data with empty nodes (a matrix
 	with empty rows and/or columns). Depending on the value of this parameter <tt>BiMat</tt> will choose 
 	between keeping these nodes (<tt>true</tt>)  or deleting them from the adjacency matrix (<tt>false</tt>).
@@ -59,7 +62,7 @@ properties in the <tt>BipartiteModularity</tt> or <tt>Nestedness</tt> instance.
 
 * **Nestedness:**
   * <tt>NESTEDNESS_ALGORITHM = @NestednessNODF</tt>: <tt>BiMat</tt> has two metrics for evaluating
-	nestedness. Possible values are (see [Nestedness](/BiMat/alg/nestedness.html "Nestedness")
+	nestedness. Possible values are (see [Nestedness](/alg/nestedness.html "Nestedness")
 	for detailed description of the avalaible metrics in <tt>BiMat</tt>):
         - <tt>@NestednessNODF</tt>
         - <tt>@NestednessNTC</tt> <br><br>
@@ -68,7 +71,7 @@ properties in the <tt>BipartiteModularity</tt> or <tt>Nestedness</tt> instance.
   * <tt>MODULARITY_ALGORITHM = @AdaptiveBrim</tt>: <tt>BiMat</tt> has three algorithms
 	for optimizing the modularity equation and hence find the module configuration of the network.
 	 Possible values are 
-	(see [Modularity](/BiMat/alg/modularity.html "Modularity") for detailed description of the avalaible algorithms in <tt>BiMat</tt>):
+	(see [Modularity](/alg/modularity.html "Modularity") for detailed description of the avalaible algorithms in <tt>BiMat</tt>):
         -  <tt>@AdaptiveBrim</tt>
         -  <tt>@LPBrim</tt>
         -  <tt>@LeadingEigenvector</tt> <br><br> 
