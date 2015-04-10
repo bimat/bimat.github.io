@@ -9,7 +9,7 @@ order: 1
 ### Default Values: Options.m File
 
 Most of the <tt>BiMat</tt> functions can work without the need of parameters by the user. However, if the user does
-not specify the required arguments, BiMat will use the default values. These values
+not specify the required arguments, BiMat will use the default ones. These values
 are specified on the file <tt>main/Options.m</tt> that the user can modify according to his needs. The next sections indicate
 the default parameters of <tt>BiMat</tt>
 
@@ -17,7 +17,7 @@ the default parameters of <tt>BiMat</tt>
 
 * **Statistical Significance:** A two-tail test is the default way of testing for
 significance in <tt>BiMat</tt>. Notice that the user can perform a one-tail test by just duplicating 
-the values below:
+the values below (these values are using during meta-analysis):
   * <tt>P_VALUE = 0.05</tt>: The $p$-value for testing statistical significance using a percentile test approach.
 	Anything outside the percentile range $[100(p/2), 100(1-p/2)]$ will be considered statistically significant.<br><br>
   * <tt>Z_SCORE = 1.96</tt>: The $z$-score for testing statistical significance using a $z$-test approach.
@@ -25,7 +25,7 @@ the values below:
 	corresponds to a 5% two tailed test.<br><br>
 * **Null Models:**
   * <tt>DEFAULT_NULL_MODEL = @NullModels.EQUIPROBABLE</tt>: The default function for creating random
-	networks (see [Null Models](/BiMat/stats/null_models.html "Null Models") for detailed description of the avalaible null models in <tt>BiMat</tt>).<br><br> 
+	networks (see [Null Models](/stats/null_models.html "Null Models") for detailed description of the avalaible null models in <tt>BiMat</tt>).<br><br> 
   * <tt>ALLOW_ISOLATED_NODES = true</tt>: When the network is sparse, a random network may be created
 	with nodes with no links at all (matrix with empty rows or columns). <tt>BiMat</tt> by default  
 	allows these kinds of random networks for performing the statistical test. However, the user may want to 
