@@ -8,7 +8,7 @@ order: 0
 <!--
 This HTML was auto-generated from MATLAB code.
 To make changes, update the MATLAB code and republish this document.
---><div class="content"><!--introduction--><!--/introduction--><h2>Contents</h2><div><ul><li><a href="#1">Download</a></li><li><a href="#2">Installation</a></li><li><a href="#4">Configuration</a></li><li><a href="#5">Start Guide</a></li><li><a href="#6"><tt>Matlab</tt> extensive documentation</a></li></ul></div><h2>Download<a name="1"></a></h2><div><ul><li><a href="https://github.com/cesar7f/BiMat/archive/master.zip">BiMat Ver. 1.0</a> - <b>April 2015</b></li></ul></div>
+--><div class="content"><!--introduction--><!--/introduction--><h2>Contents</h2><div><ul><li><a href="#1">Download</a></li><li><a href="#2">Installation</a></li><li><a href="#4">Configuration</a></li><li><a href="#5">Start Guide</a></li><li><a href="#6"><tt>Matlab</tt> extensive documentation</a></li></ul></div><h2>Download<a name="1"></a></h2><div><ul><li><a href="http://www.mathworks.com/matlabcentral/fileexchange/47008-bimat">BiMat Ver. 1.0</a> - <b>April 2015</b></li></ul></div>
 
 <h2>Start Guide<a name="5"></a></h2><p>You can download the start guide in the link below. This document contains complete examples to start using <tt>BiMat</tt>, which complements the examples found in this website:</p><div><ul><li><a href="../bimat_start_guide.pdf">Start Guide</a></li></ul></div>
 
@@ -17,7 +17,7 @@ bimat_user_path = <span class="string">'mypackages/bimat'</span>;
 g=genpath(bimat_user_path);
 addpath(g);
 </pre><p><b>Permanent path:</b> Alternatively, the user can add <tt>BiMat</tt> to the <tt>Matlab</tt> search path permanently. Instructions about how to do that can be found on: <a href="http://www.mathworks.com/help/matlab/matlab_env/add-remove-or-reorder-folders-on-the-search-path.html">Matlab Search Path</a></p><h2>Configuration<a name="4"></a></h2><p>Before start using <tt>BiMat</tt> the user can check how to configure the default values by consulting the
-<a href="configuration.html">configuration</a> </p>
+<a href="configuration.html">configuration</a> website page.</p>
 
 <h2><tt>Matlab</tt> extensive documentation<a name="6"></a></h2><p><tt>BiMat</tt> comes extensively documented. For accessing this documentation, the user can use directly inside <tt>Matlab</tt> command prompt either <tt>help</tt> or <tt>doc</tt> functions following by the name of the class of method the user is interested as in the next examples:</p><pre class="codeinput">doc <span class="string">Bipartite</span>; <span class="comment">%access class documentation</span>
 doc <span class="string">BipartiteModularity.bb</span> <span class="comment">%accesing a class property documentation</span>
