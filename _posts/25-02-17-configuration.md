@@ -45,7 +45,7 @@ the values below (these values are using during meta-analysis):
 	</pre>
   * <tt>SWAP_FIXED_FACTOR = 100</tt>: This swap factor $S_f$ is used for creating random networks using the
 	<tt>FIXED</tt> null model. The amount of performed random swaps in the matrix is $S_f E$, were $E$ is the
-	number of edges.
+	number of edges.<br><br>
   * <tt>INCLUDE_EMPTY_NODES = true</tt>: Sometimes the user may have data with empty nodes (a matrix
 	with empty rows and/or columns). Depending on the value of this parameter <tt>BiMat</tt> will choose 
 	between keeping these nodes (<tt>true</tt>)  or deleting them from the adjacency matrix (<tt>false</tt>).
