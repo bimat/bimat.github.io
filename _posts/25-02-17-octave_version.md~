@@ -15,7 +15,7 @@ Altough <tt>BiMat</tt> was tested exhaustively in <tt>MATLAB</tt> only, a port w
 ### Requierements
 
 The biggest barrier to make <tt>BiMat</tt> available in <tt>octave</tt> in the past was the missing of the <tt>classdef</tt> constructor. However,
-the newest realease of <tt>octave</tt> include it. Therefore the user need to be sure to follow the next steps in order to use the <tt>octave</tt>
+the newest realease of <tt>octave</tt> includes it. Therefore the user need to be sure to follow the next steps in order to use the <tt>octave</tt>
 port:
 
 * Install [<tt>octave 4.0</tt>](<tt>octave</tt>).
