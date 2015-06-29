@@ -60,7 +60,7 @@ insect_3 2 grass_2
 bird_1 1 flower_2
 bird_1 2 grass_1
 bird_1 2 grass_2
-bird_2 1 grass_1</pre><p>The middle column is optional. If it is not used, the reading function will assume that it is composed of ones only. We can now just call:</p><pre class="codeinput">bp = Reader.READ_ADJACENCY_LIST(<span class="string">'input_adja.txt.'</span>);
+bird_2 1 grass_1</pre><p>The middle column is optional. If it is not used, the reading function will assume that it is composed of ones only. We can now just call:</p><pre class="codeinput">bp = Reader.READ_ADJACENCY_LIST(<span class="string">'data/input_adja.txt.'</span>);
 <span class="comment">% Wee need to add class ids by ourselves</span>
 bp.row_class = row_ids;
 bp.col_class = col_ids;
