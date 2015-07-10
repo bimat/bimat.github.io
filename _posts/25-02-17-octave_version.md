@@ -10,7 +10,7 @@ With the intention of making <tt>BiMat</tt> fully available to anybody, a fully 
  
 ### Download
 
-* [Bimat-oct Ver 0.99](https://github.com/cesar7f/BiMat/archive/bimat-oct.zip)
+* [Bimat-oct Ver 0.99 (Beta Version)](https://github.com/cesar7f/BiMat/archive/bimat-oct.zip)
 
 ### Requierements
 
@@ -45,4 +45,6 @@ Some important differences <tt>BiMat-oct</tt> with the original <tt>BiMat</tt> v
 
 Similar to <tt>BiMat</tt>, the user can execute all the examples in this website and on the [start guide](getting_started.html#5) by running the scripts 
 on the <tt>examples</tt> directory of <tt>BiMat-oct</tt>. These scripts include the change of function handlers to strings mentioned above.
+
+
 

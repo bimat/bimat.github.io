@@ -29,3 +29,9 @@ This project has been developed and contributed by:
 
 For a Python version that contains
 some of the BiMat features you may want to check: https://github.com/tpoisot/BiWeb
+
+
+### Help this project
+
+You can help this project either by reporting issues on [github](https://github.com/cesar7f/BiMat/issues) or by directly
+contributing with new modules (feel free to contact any of the authors if you are interested).
