@@ -12,22 +12,22 @@ With the intention of making <tt>BiMat</tt> fully available to anybody, a fully 
 
 * [Bimat-oct Ver 0.99 (Beta Version)](https://github.com/cesar7f/BiMat/archive/bimat-oct.zip)
 
-### Requierements
+### Requirements
 
 * [Octave Ver 4.0](http://www.gnu.org/software/octave/download.html). Unfortunately because previous versions of <tt>Octave</tt> lack the <tt>classdef</tt>
   constructor, <tt>BiMat-oct</tt> can not be used in such versions.<br><br>
-* Additional build in <tt>Octave</tt> packages. The follwing lines install them from the octave port:
+* Additional build in <tt>Octave</tt> packages. The following lines install them from the octave port:
     * <tt>>>cd C:\octave\Octave-4.0\src</tt>    
     * <tt>>>build_packages</tt>
     * <tt>>>pkg rebuild -auto io</tt>
     * <tt>>>pkg rebuild -auto statistics</tt><br><br>
 * _Recommended: Windows 7._ <tt>BiMat-oct</tt> was tested in both Windows 7 and Windows 8.1. While in Windows 7 we never observe a crash of the
-  Octave GUI, under Windows 8.1 we observe a lot of craches during figure plotting. The reason appears to be that <tt>Octave 4.0</tt> is not fully stable
-  on Windows 8.x. However the user can still make all sort of statistical analysis under this version of Windows.
+  Octave GUI, under Windows 8.1 we observe a lot of crashes during figure plotting. The reason appears to be that <tt>Octave 4.0</tt> is not fully stable
+  on Windows 8.x. However the user can still perform statistical analyses under this version of Windows.
 
 ### Installation:
 
-For installing <tt>BiMat-oct</tt> you can follow the same instructions than the original version [<tt>BiMat</tt>](getting_started.html#2). That is, the user only need to add
+For installing <tt>BiMat-oct</tt> you can follow the same instructions than the original version [<tt>BiMat</tt>](getting_started.html#2). That is, the user only needs to add the
 <tt>BiMat-oct</tt> directory to <tt>Octave</tt> search path.
 
 ### Important differences between the Matlab and the Octave versions
@@ -36,7 +36,7 @@ Some important differences <tt>BiMat-oct</tt> with the original <tt>BiMat</tt> v
 
 * <tt>Bimat-oct</tt> use strings instead of function handles when passing functions as arguments. For example an argument of the type
   <tt>@NestednessNTC</tt> need to be transformed to <tt>'NestednessNTC'</tt> when using a function that uses such argument. 
-* Because documentation in <tt>octave</tt> does not follow the same convenction than in <tt>MATLAB</tt>, documentation in <tt>BiMat-oct</tt> 
+* Because documentation in <tt>octave</tt> does not follow the same convention than in <tt>MATLAB</tt>, documentation in <tt>BiMat-oct</tt> 
   can not be acceded from the <tt>octave</tt> prompt.
 * As the code was optimized to run in <tt>MATLAB</tt>, some of the code will run slower in the <tt>Bimat-oct</tt>.
 
